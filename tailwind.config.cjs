@@ -10,9 +10,9 @@ module.exports = {
 				yellow: "#FBEBBA",
 				red: "#EFACA6",
 			},
-			fontFamily: {
-				poppins: ["Poppins", "sans-serif"],
-			},
+		},
+		fontFamily: {
+			poppins: ["Poppins", "sans-serif"],
 		},
 	},
 	plugins: [],
