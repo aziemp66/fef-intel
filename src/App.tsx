@@ -3,7 +3,7 @@ import Router from "./Router/Router";
 
 function App() {
 	return (
-		<div className="w-full h-full ">
+		<div className="w-full h-full font-poppins">
 			<Header />
 			<Router />
 		</div>
