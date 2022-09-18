@@ -12,7 +12,7 @@ const Home = () => {
 				spaceBetween={30}
 				loop={true}
 				autoplay={{
-					delay: 2500,
+					delay: 1500,
 					disableOnInteraction: false,
 				}}
 				grabCursor
@@ -54,7 +54,7 @@ const Home = () => {
 					/>
 				</SwiperSlide>
 			</Swiper>
-			<div className="flex justify-center items-center w-4/5 mx-auto gap-16 bg-light-pink h-[500px] rounded-xl shadow-2xl px-32">
+			<div className="flex justify-center items-center w-4/5 mx-auto gap-16 bg-light-pink h-[600px] rounded-xl shadow-2xl px-32">
 				<div className="w-[1000px] h-[1000px] flex justify-center items-center">
 					<img className="rounded-xl" src="/logo/fef-logo.png" alt="fef-logo" />
 				</div>
@@ -81,6 +81,19 @@ const Home = () => {
 						</Link>
 					</div>
 				</div>
+			</div>
+			<div className="flex justify-center items-center w-full mt-44 gap-4">
+				<img
+					className="w-full h-4"
+					src="/items/yellow-strike-line.svg"
+					alt="yellow-line"
+				/>
+				<h2 className="font-normal text-5xl">Competition</h2>
+				<img
+					className="w-full h-4"
+					src="/items/yellow-strike-line.svg"
+					alt="yellow-line"
+				/>
 			</div>
 		</div>
 	);
