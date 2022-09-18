@@ -10,16 +10,16 @@ const Header = () => {
 				<h1 className="font-medium text-3xl p-2">FEF INTEL</h1>
 			</div>
 			<ul className="flex gap-20 px-8 w-full justify-center items-center">
-				<li className="font-bold link-hover-animation">
+				<li className="font-bold link-hover-animation text-xl">
 					<Link to="/">Home</Link>
 				</li>
-				<li className="link-hover-animation">
+				<li className="link-hover-animation text-xl">
 					<Link to="/about-us">About Us</Link>
 				</li>
-				<li className="link-hover-animation">
+				<li className="link-hover-animation text-xl">
 					<Link to={"/competitions"}>Competitions</Link>
 				</li>
-				<li className="link-hover-animation">
+				<li className="link-hover-animation text-xl">
 					<Link to="/faq">FAQ</Link>
 				</li>
 			</ul>
