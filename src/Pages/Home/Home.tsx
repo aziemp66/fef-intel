@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 import "swiper/css";
 
+import CardList from "../../Components/Card/CardList";
+
 const Home = () => {
 	return (
 		<div>
@@ -82,7 +84,7 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex justify-center items-center w-full mt-44 gap-4">
+			<div className="flex justify-center items-center w-full my-44 gap-4">
 				<img
 					className="w-full h-4"
 					src="/items/yellow-strike-line.svg"
@@ -95,6 +97,7 @@ const Home = () => {
 					alt="yellow-line"
 				/>
 			</div>
+			<CardList />
 		</div>
 	);
 };
