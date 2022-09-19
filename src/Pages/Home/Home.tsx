@@ -1,8 +1,8 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from "react-router-dom";
 
 import "swiper/css";
+import DashLineTitle from "../../Components/UI/DashLineTitle/DashLineTitle";
 
 const Home = () => {
 	return (
@@ -82,19 +82,7 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex justify-center items-center w-full mt-44 gap-4">
-				<img
-					className="w-full h-4"
-					src="/items/yellow-strike-line.svg"
-					alt="yellow-line"
-				/>
-				<h2 className="font-normal text-5xl">Competition</h2>
-				<img
-					className="w-full h-4"
-					src="/items/yellow-strike-line.svg"
-					alt="yellow-line"
-				/>
-			</div>
+			<DashLineTitle color="#FFD658" text="Competition" />
 		</div>
 	);
 };

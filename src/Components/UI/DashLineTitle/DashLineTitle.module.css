@@ -1,0 +1,27 @@
+h2.text {
+	color: #0f0f0f;
+	font-size: 50px;
+	margin-top: 30px;
+	text-align: center;
+	z-index: 1;
+}
+.dash {
+	border-top: 5px dashed;
+	content: "";
+	margin: 0 auto;
+	/* this centers the line to the full width specified */
+	position: absolute;
+	/* positioning must be absolute here, and relative positioning must be applied to the parent */
+	top: 50%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: -1;
+	transform: rotate(-0.17deg);
+}
+h2.text span {
+	/* to hide the lines from behind the text, you have to set the background color the same as the container */
+	background: #fff;
+	padding: 0 16px;
+}
