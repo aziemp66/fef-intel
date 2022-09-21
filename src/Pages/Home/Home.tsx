@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import "swiper/css";
 import DashLineTitle from "../../Components/UI/DashLineTitle/DashLineTitle";
 
+import CardList from "../../Components/Card/CardList";
+
 const Home = () => {
 	return (
 		<div>
