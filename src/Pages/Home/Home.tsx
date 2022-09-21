@@ -82,7 +82,10 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-			<DashLineTitle color="#FFD658" text="Competition" />
+
+			<div className="relative w-full mt-44 gap-4">
+				<DashLineTitle color="yellow" text="Competition" />
+			</div>
 		</div>
 	);
 };
