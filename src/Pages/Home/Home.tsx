@@ -22,42 +22,52 @@ const Home = () => {
 			>
 				<SwiperSlide>
 					<img
-						className="w-[1000px] h-[500px] mx-auto"
-						src="https://source.unsplash.com/1000x500?event"
+						className="mx-auto"
+						src="https://source.unsplash.com/800x450?event"
 						alt="random"
+						width={800}
+						height={450}
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
-						className="w-[1000px] h-[500px] mx-auto"
-						src="https://source.unsplash.com/1000x500?party"
+						className="mx-auto"
+						src="https://source.unsplash.com/800x450?party"
 						alt="random"
+						width={800}
+						height={450}
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
-						className="w-[1000px] h-[500px] mx-auto"
-						src="https://source.unsplash.com/1000x500?competition"
+						className="mx-auto"
+						src="https://source.unsplash.com/800x450?competition"
 						alt="random"
+						width={800}
+						height={450}
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
-						className="w-[1000px] h-[500px] mx-auto"
-						src="https://source.unsplash.com/1000x500?concert"
+						className="mx-auto"
+						src="https://source.unsplash.com/800x450?concert"
 						alt="random"
+						width={800}
+						height={450}
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
-						className="w-[1000px] h-[500px] mx-auto"
-						src="https://source.unsplash.com/1000x500?meeting"
+						className="mx-auto"
+						src="https://source.unsplash.com/800x450?meeting"
 						alt="random"
+						width={800}
+						height={800}
 					/>
 				</SwiperSlide>
 			</Swiper>
 			<div className="flex justify-center items-center w-4/5 mx-auto gap-16 bg-light-pink h-[600px] rounded-xl shadow-2xl px-32">
-				<div className="w-[1000px] h-[1000px] flex justify-center items-center">
+				<div className="w-[2000px] h-[2000px] flex justify-center items-center">
 					<img className="rounded-xl" src="/logo/fef-logo.png" alt="fef-logo" />
 				</div>
 
@@ -76,7 +86,7 @@ const Home = () => {
 					</p>
 					<div>
 						<Link
-							className="bg-light-blue text-white px-6 py-2 font-semibold text-xl rounded-lg"
+							className="bg-light-blue text-white px-6 py-2 font-semibold text-xl rounded-lg transition hover:bg-bright-blue duration-500"
 							to={"/about-us"}
 						>
 							Learn More
@@ -85,6 +95,7 @@ const Home = () => {
 				</div>
 			</div>
 			<DashLineTitle color="#FFD658" text="Competition" />
+			<CardList />
 		</div>
 	);
 };
