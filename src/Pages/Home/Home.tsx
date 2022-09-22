@@ -99,6 +99,11 @@ const Home = () => {
 				<DashLineTitle color="yellow" text="Competition" />
 			</div>
 			<CardList />
+			<div className="relative w-full my-44 gap-4">
+				<DashLineTitle color="yellow" text="Sponsorship" />
+			</div>
+
+			<div className="mx-auto w-1/2 h-[250px] bg-white border my-52 shadow-3xl rounded-xl"></div>
 		</div>
 	);
 };

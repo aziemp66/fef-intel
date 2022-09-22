@@ -1,3 +1,4 @@
+import Footer from "./Components/UI/Footer";
 import Header from "./Components/UI/Header";
 import Router from "./Router/Router";
 
@@ -6,6 +7,7 @@ function App() {
 		<div className="w-full h-full font-poppins">
 			<Header />
 			<Router />
+			<Footer />
 		</div>
 	);
 }
