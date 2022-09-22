@@ -12,7 +12,7 @@ const CardContainer = ({ competition }: CardContainerProps) => {
 		(competition === "Newscasting" && "bg-light-red");
 	return (
 		<div
-			className={`flex flex-col items-center justify-center ${cardColor} rounded-xl p-12 gap-4`}
+			className={`flex flex-col items-center justify-between ${cardColor} rounded-xl p-12 gap-4`}
 		>
 			<div className="flex justify-center items-center h-3/4">
 				<img
