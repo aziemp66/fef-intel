@@ -1,7 +1,11 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
 import { Link } from "react-router-dom";
 
 import "swiper/css";
+import "swiper/css/navigation";
+import "../../Styles/Swiper.css";
+
 import DashLineTitle from "../../Components/UI/DashLineTitle/DashLineTitle";
 
 import CardList from "../../Components/Card/CardList";
@@ -10,15 +14,13 @@ const Home = () => {
 	return (
 		<div>
 			<Swiper
+				modules={[Navigation]}
 				slidesPerView={1}
 				spaceBetween={30}
 				loop={true}
-				autoplay={{
-					delay: 1500,
-					disableOnInteraction: false,
-				}}
 				grabCursor
-				className="my-32"
+				className="my-32 w-4/5"
+				navigation
 			>
 				<SwiperSlide>
 					<img
