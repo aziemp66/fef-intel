@@ -1,10 +1,10 @@
-import styles from "./DashLineTitle.module.css";
+import styles from "../../../Styles/DashLineTitle.module.css";
 
 const Footer = (props: { color?: string; text: string }) => {
 	return (
 		<>
 			<div className="relative w-full">
-				<h2 className={`text ${styles.text} font-normal text-5xl`}>
+				<h2 className={`text ${styles.text} font-normal text-3xl lg:text-5xl`}>
 					<span>{props.text}</span>
 				</h2>
 				<div
