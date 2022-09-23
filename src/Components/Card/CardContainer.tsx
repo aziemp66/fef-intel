@@ -39,7 +39,7 @@ const CardContainer = ({ competition }: CardContainerProps) => {
 				/>
 			</div>
 
-			<p className="font-medium text-5xl">{competition}</p>
+			<p className="font-medium text-3xl lg:text-5xl">{competition}</p>
 		</div>
 	);
 };

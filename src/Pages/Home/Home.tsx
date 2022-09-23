@@ -68,7 +68,7 @@ const Home = () => {
 					/>
 				</SwiperSlide>
 			</Swiper>
-			<div className="flex flex-col lg:flex-row justify-center items-center w-[full] lg:w-4/5 mx-auto lg:gap-16 bg-light-pink h-full rounded-xl shadow-2xl px-4 lg:px-24 py-8 lg:py-12">
+			<div className="flex flex-col lg:flex-row justify-center items-center w-[full] lg:w-4/5 mx-auto lg:gap-16 bg-light-pink h-full rounded-xl shadow-2xl px-4 lg:px-24 py-10 lg:py-12 lg:mb-0">
 				<img
 					className="w-[250px] h-[200px] lg:w-[500px] lg:h-[300px]"
 					src="/logo/fef-logo.png"
@@ -101,15 +101,15 @@ const Home = () => {
 				</div>
 			</div>
 
-			<div className="relative w-full mt-44 gap-4">
-				<DashLineTitle color="yellow" text="Competition" />
+			<div className="relative w-full">
+				<DashLineTitle color="#FFD658" text="Competition" />
 			</div>
 			<CardList />
-			<div className="relative w-full my-44 gap-4">
-				<DashLineTitle color="yellow" text="Sponsorship" />
+			<div className="relative w-full">
+				<DashLineTitle color="#F96B7E" text="Sponsorship" />
 			</div>
 
-			<div className="mx-auto w-3/4 h-[400px] bg-white border my-52 shadow-3xl rounded-xl"></div>
+			<div className="mx-auto w-4/5 lg:w-3/4 min-h-[500px] lg:h-[400px] bg-white border my-20 lg:my-52 shadow-3xl rounded-xl"></div>
 		</div>
 	);
 };
