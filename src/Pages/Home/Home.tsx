@@ -68,31 +68,31 @@ const Home = () => {
 					/>
 				</SwiperSlide>
 			</Swiper>
-			<div className="flex flex-col lg:flex-row justify-center items-center w-[full] lg:w-4/5 mx-auto lg:gap-16 bg-light-pink h-full rounded-xl shadow-2xl px-4 lg:px-24 py-10 lg:py-12 lg:mb-0">
+			<div className="flex flex-col md:flex-row justify-center items-center w-[full] md:w-4/5 mx-auto md:gap-16 bg-light-pink h-full rounded-xl shadow-2xl px-4 md:px-12 py-10 md:py-12 md:mb-0">
 				<img
-					className="w-[250px] h-[200px] lg:w-[500px] lg:h-[300px]"
+					className="w-[250px] h-[200px] md:w-[500px] md:h-[300px]"
 					src="/logo/fef-logo.png"
 					alt="fef-logo"
 				/>
 
 				<div className="flex flex-col gap-6">
-					<h2 className="font-bold text-sm lg:text-4xl">
+					<h2 className="font-bold text-sm md:text-4xl">
 						FEF INTEL UNSRI 2022
 					</h2>
-					<p className="text-sm lg:text-xl font-medium">
+					<p className="text-sm md:text-xl font-medium">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ipsum
 						euismod nullam proin ullamcorper sit enim sodales egestas. Phasellus
 						eget semper elit, blandit risus lacus, elementum pretium, egestas. A
 						sit integer egestas mauris. Mauris habitant nunc auctor commodo.
 					</p>
-					<p className="text-sm lg:text-xl font-medium">
+					<p className="text-sm md:text-xl font-medium">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
 						minus doloremque quasi temporibus ullam quam deserunt voluptas sint
 						repellendus sit.
 					</p>
 					<div>
 						<Link
-							className="bg-light-blue text-white px-6 py-2 font-semibold lg:text-xl rounded-lg transition hover:bg-bright-blue duration-500"
+							className="bg-light-blue text-white px-6 py-2 font-semibold md:text-xl rounded-lg transition hover:bg-bright-blue duration-500"
 							to={"/about-us"}
 						>
 							Learn More
@@ -109,7 +109,7 @@ const Home = () => {
 				<DashLineTitle color="#F96B7E" text="Sponsorship" />
 			</div>
 
-			<div className="mx-auto w-4/5 lg:w-3/4 min-h-[500px] lg:h-[400px] bg-white border my-20 lg:my-52 shadow-3xl rounded-xl"></div>
+			<div className="mx-auto w-4/5 md:w-3/4 min-h-[500px] md:h-[400px] bg-white border my-20 md:my-52 shadow-3xl rounded-xl"></div>
 		</div>
 	);
 };
