@@ -23,7 +23,7 @@ const Header = () => {
 					<Link to="/faq">FAQ</Link>
 				</li>
 			</ul>
-			<div className="flex flex-col h-5 w-8 gap-1 cursor-pointer">
+			<div className="flex md:hidden flex-col h-5 w-8 gap-1 cursor-pointer">
 				<div className="h-1 w-full bg-black rounded"></div>
 				<div className="h-1 w-full bg-black rounded"></div>
 				<div className="h-1 w-full bg-black rounded"></div>

@@ -19,7 +19,7 @@ const Home = () => {
 				spaceBetween={30}
 				loop={true}
 				grabCursor
-				className="my-32 w-4/5"
+				className="my-32 w-[90%] md:w-4/5"
 				navigation
 			>
 				<SwiperSlide>
@@ -74,7 +74,6 @@ const Home = () => {
 					src="/logo/fef-logo.png"
 					alt="fef-logo"
 				/>
-
 				<div className="flex flex-col gap-6">
 					<h2 className="font-bold text-sm md:text-4xl">
 						FEF INTEL UNSRI 2022
