@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
-		<nav className="flex justify-between md:justify-between items-center w-full px-12">
+		<nav className="flex justify-between md:justify-between items-center w-full px-4 md:px-12">
 			<div className="flex justify-center md:justify-around items-center gap-2">
 				<img src="/logo/intel-logo.png" alt="fef" className="w-24 h-24" />
 				<div className="w-[1px] h-16 bg-slate-400"></div>
