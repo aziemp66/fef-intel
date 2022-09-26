@@ -6,6 +6,10 @@
 	color: black;
 }
 
+.swiper-pagination-bullet {
+	background-color: black;
+}
+
 @media (max-width: 768px) {
 	.swiper-button-prev {
 		color: transparent;
@@ -13,5 +17,8 @@
 
 	.swiper-button-next {
 		color: transparent;
+	}
+	.swiper-pagination-bullet {
+		background-color: transparent;
 	}
 }

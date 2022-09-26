@@ -27,7 +27,7 @@ const CardContainer = ({ competition }: CardContainerProps) => {
 
 	return (
 		<div
-			className={`${cardColor} flex flex-col cursor-pointer items-center justify-between rounded-xl p-12 gap-4 transition-all duration-300`}
+			className={`${cardColor} flex flex-col cursor-pointer items-center justify-center md:justify-between rounded-xl p-4 md:p-12 md:gap-4 transition-all duration-300 h-[400px]`}
 		>
 			<div className="flex justify-center items-center h-3/4">
 				<img
@@ -37,8 +37,11 @@ const CardContainer = ({ competition }: CardContainerProps) => {
 					height={300}
 				/>
 			</div>
-
-			<p className="font-medium text-3xl md:text-5xl">{competition}</p>
+			<div className="flex justify-center items-center">
+				<p className="font-medium text-3xl md:text-4xl text-center">
+					{competition}
+				</p>
+			</div>
 		</div>
 	);
 };
