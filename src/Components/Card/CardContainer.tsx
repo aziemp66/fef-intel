@@ -2,10 +2,11 @@ import React from "react";
 
 type CardContainerProps = {
 	competition: "Scrabble" | "Speech" | "Debate" | "Newscasting";
+	isWithoutText?: boolean;
 };
 type CardColorType = string;
 
-const CardContainer = ({ competition }: CardContainerProps) => {
+const CardContainer = ({ competition, isWithoutText }: CardContainerProps) => {
 	let cardColor: CardColorType;
 	switch (competition) {
 		case "Scrabble":
@@ -37,11 +38,13 @@ const CardContainer = ({ competition }: CardContainerProps) => {
 					height={300}
 				/>
 			</div>
-			<div className="flex justify-center items-center">
-				<p className="font-medium text-3xl md:text-4xl text-center">
-					{competition}
-				</p>
-			</div>
+			{!isWithoutText && (
+				<div className="flex justify-center items-center">
+					<h2 className="font-medium text-3xl md:text-4xl text-center">
+						{competition}
+					</h2>
+				</div>
+			)}
 		</div>
 	);
 };

@@ -17,7 +17,7 @@ const MobileMenu = ({ setShowMenu }: MobileMenuProps) => {
 			</Link>
 			<Link
 				className="text-white font-bold text-center text-lg"
-				to="/competition"
+				to="/competitions"
 			>
 				Kompetisi
 			</Link>
