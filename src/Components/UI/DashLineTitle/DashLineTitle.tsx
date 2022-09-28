@@ -1,8 +1,16 @@
 import styles from "../../../Styles/DashLineTitle.module.css";
 
-const Footer = ({ color, text }: { color?: string; text: string }) => {
+const dashLineTitle = ({
+	className,
+	color,
+	text,
+}: {
+	className?: string;
+	color?: string;
+	text: string;
+}) => {
 	return (
-		<div className="relative w-full my-16">
+		<div className={`relative w-full ${className}`}>
 			<h2 className={`text ${styles.text} font-normal text-3xl md:text-5xl`}>
 				<span>{text}</span>
 			</h2>
@@ -16,4 +24,4 @@ const Footer = ({ color, text }: { color?: string; text: string }) => {
 	);
 };
 
-export default Footer;
+export default dashLineTitle;
