@@ -23,7 +23,7 @@ const faqDropdown = (props: {
 				}}
 			>
 				<p className="font-bold text-left">{props.question}</p>
-				<div className="w-8">
+				<div className="flex-none w-8">
 					{open ? (
 						<ChevronUp fill="#686868" />
 					) : (
