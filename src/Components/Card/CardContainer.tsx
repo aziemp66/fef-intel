@@ -2,11 +2,10 @@ import React from "react";
 
 type CardContainerProps = {
 	competition: "Scrabble" | "Speech" | "Debate" | "Newscasting";
-	isWithoutText?: boolean;
 };
 type CardColorType = string;
 
-const CardContainer = ({ competition, isWithoutText }: CardContainerProps) => {
+const CardContainer = ({ competition }: CardContainerProps) => {
 	let cardColor: CardColorType;
 	switch (competition) {
 		case "Scrabble":
@@ -28,7 +27,7 @@ const CardContainer = ({ competition, isWithoutText }: CardContainerProps) => {
 
 	return (
 		<div
-			className={`${cardColor} flex flex-col cursor-pointer items-center justify-center md:justify-between rounded-xl p-4 md:p-12 md:gap-4 transition-all duration-300 h-[400px]`}
+			className={`${cardColor} flex flex-col cursor-pointer items-center justify-center md:justify-between rounded-xl p-4 md:p-12 md:gap-4 transition-all duration-300 h-[500px] `}
 		>
 			<div className="flex justify-center items-center h-3/4">
 				<img
@@ -38,13 +37,12 @@ const CardContainer = ({ competition, isWithoutText }: CardContainerProps) => {
 					height={300}
 				/>
 			</div>
-			{!isWithoutText && (
-				<div className="flex justify-center items-center">
-					<h2 className="font-medium text-3xl md:text-4xl text-center">
-						{competition}
-					</h2>
-				</div>
-			)}
+
+			<div className="flex justify-center items-center">
+				<h2 className="font-medium text-3xl md:text-4xl text-center">
+					{competition}
+				</h2>
+			</div>
 		</div>
 	);
 };

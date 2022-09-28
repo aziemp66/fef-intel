@@ -8,4 +8,7 @@
 	.link-hover-animation {
 		@apply transition duration-500 ease-in-out hover:text-blue-600;
 	}
+	.blue-button {
+		@apply bg-light-blue text-white px-6 py-2 font-semibold md:text-xl rounded-lg transition hover:bg-bright-blue duration-500;
+	}
 }

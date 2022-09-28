@@ -90,10 +90,7 @@ const Home = () => {
 						repellendus sit.
 					</p>
 					<div>
-						<Link
-							className="bg-light-blue text-white px-6 py-2 font-semibold md:text-xl rounded-lg transition hover:bg-bright-blue duration-500"
-							to={"/about-us"}
-						>
+						<Link className="blue-button" to={"/about-us"}>
 							Learn More
 						</Link>
 					</div>

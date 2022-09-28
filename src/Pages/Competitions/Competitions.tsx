@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,6 +9,8 @@ import "swiper/css/pagination";
 import "../../Styles/Swiper.css";
 
 import CardContainer from "../../Components/Card/CardContainer";
+
+type valueType = "Scrabble" | "Speech" | "Debate" | "Newscasting";
 
 const Competitions = () => {
 	const [screenSize, setScreenSize] = useState(window.innerWidth);
@@ -35,18 +38,19 @@ const Competitions = () => {
 				}
 				loop
 			>
-				<SwiperSlide>
-					<CardContainer competition="Debate" />
-				</SwiperSlide>
-				<SwiperSlide>
-					<CardContainer competition="Speech" />
-				</SwiperSlide>
-				<SwiperSlide>
-					<CardContainer competition="Scrabble" />
-				</SwiperSlide>
-				<SwiperSlide>
-					<CardContainer competition="Newscasting" />
-				</SwiperSlide>
+				{["Debate", "Speech", "Newscasting", "Scrabble"].map((competition) => {
+					return (
+						<SwiperSlide key={competition}>
+							<CardContainer competition={competition as valueType} />
+							<Link
+								to={`/competitions/${competition}`}
+								className="blue-button block my-8 text-center"
+							>
+								Details
+							</Link>
+						</SwiperSlide>
+					);
+				})}
 			</Swiper>
 		</div>
 	);
