@@ -9,8 +9,12 @@ const About = () => {
 				</h2>
 			</div>
 			<div className="flex flex-col justify-center items-center mb-8">
-				<div className="md:w-4/5 w-[90%] bg-light-yellow md:h-24 h-12 rounded-t-xl shadow-inner-lg"></div>
-				<div className="md:w-4/5 w-[90%] h-[300px] md:h-[450px] shadow-inner-lg"></div>
+				<div className="md:w-4/5 w-[90%] bg-light-yellow md:h-24 h-12 rounded-t-xl shadow-inner-lg flex items-center gap-4 px-12 ">
+					<div className="w-6 h-6 rounded-full shadow-inner-lg bg-bright-blue"></div>
+					<div className="w-6 h-6 rounded-full shadow-inner-lg bg-bright-green"></div>
+					<div className="w-6 h-6 rounded-full shadow-inner-lg bg-bright-red"></div>
+				</div>
+				<div className="md:w-4/5 w-[90%] h-[300px] md:h-[450px] shadow-inner-lg cursor-pointer"></div>
 			</div>
 			<div className="md:w-4/5 w-[90%] mx-auto flex flex-col gap-4">
 				<p className="text-justify">
