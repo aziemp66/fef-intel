@@ -11,4 +11,7 @@
 	.blue-button {
 		@apply bg-light-blue text-white px-6 py-2 font-semibold md:text-xl rounded-lg transition hover:bg-bright-blue duration-500;
 	}
+	.shadow-inner-lg {
+		box-shadow: inset 0px -10px 20px rgba(0, 0, 0, 0.25);
+	}
 }
