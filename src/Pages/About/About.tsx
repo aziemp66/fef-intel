@@ -4,11 +4,13 @@ const About = () => {
 	return (
 		<div className="my-24 ">
 			<div className="mb-8">
-				<h2 className="text-6xl font-bold text-center">FEF INTEL UNSRI 2022</h2>
+				<h2 className="text-3xl md:text-6xl font-bold text-center">
+					FEF INTEL UNSRI 2022
+				</h2>
 			</div>
 			<div className="flex flex-col justify-center items-center mb-8">
 				<div className="md:w-4/5 w-[90%] bg-light-yellow md:h-24 h-12 rounded-t-xl shadow-inner-lg"></div>
-				<div className="md:w-4/5 w-[90%] md:h-[450px] shadow-inner-lg"></div>
+				<div className="md:w-4/5 w-[90%] h-[300px] md:h-[450px] shadow-inner-lg"></div>
 			</div>
 			<div className="md:w-4/5 w-[90%] mx-auto flex flex-col gap-4">
 				<p className="text-justify">
