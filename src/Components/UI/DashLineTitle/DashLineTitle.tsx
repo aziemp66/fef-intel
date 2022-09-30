@@ -11,7 +11,7 @@ const dashLineTitle = ({
 }) => {
 	return (
 		<div className={`my-4 relative w-full ${className}`}>
-			<h2 className={`text ${styles.text} font-normal text-3xl md:text-5xl`}>
+			<h2 className={`text ${styles.text} text-xl sm:text-3xl md:text-5xl`}>
 				<span>{text}</span>
 			</h2>
 			<div

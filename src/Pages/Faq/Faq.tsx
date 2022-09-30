@@ -9,7 +9,7 @@ const Faq = () => {
 				Have you can find frequently asked questions. We help you to find the
 				answer!
 			</p>
-			<div className="my-8 px-40 space-y-16">
+			<div className="items-center my-8 mx-4 space-y-16">
 				<FaqDropdown
 					color="#C8E3B8"
 					question="

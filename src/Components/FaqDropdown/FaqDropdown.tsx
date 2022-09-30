@@ -11,13 +11,13 @@ const faqDropdown = (props: {
 
 	return (
 		<div
-			className="px-8 py-12 rounded-lg shadow-2xl"
+			className="px-4 xl:px-8 mx-auto max-w-[1310px] py-12 rounded-lg shadow-2xl"
 			style={{
 				backgroundColor: props.color,
 			}}
 		>
 			<button
-				className="w-full flex justify-between"
+				className="w-full flex flex-row items-center justify-between"
 				onClick={() => {
 					setOpen(!open);
 				}}

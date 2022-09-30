@@ -120,9 +120,9 @@ const CompDesc = () => {
 	return (
 		<div>
 			<DashLineTitle color="#FFD658" text="Competition Name" />
-			<div className="my-40 h-[325px] flex gap-8 justify-center">
+			<div className="my-40 lg:mx-8 mx-4 lg:h-[325px] flex flex-col items-center lg:flex-row lg:gap-8 lg:justify-center">
 				<img src={`/hero/${name}.png`} alt="" />
-				<div className="max-w-[800px] h-full flex flex-col content-between justify-between">
+				<div className="max-w-[800px] lg:h-full flex flex-col content-between justify-between">
 					<div>
 						<p className="font-bold text-2xl">{name}</p>
 						<p>{description}</p>
@@ -144,7 +144,7 @@ const CompDesc = () => {
 				<Timeline items={items!} />
 			</div>
 			<DashLineTitle color="#95AB87" text="Contact Person" />
-			<div className="my-20 flex align-center justify-center gap-10">
+			<div className="my-20 flex flex-col mx-10 space-y-4 md:space-y-0 md:space-x-10 md:flex-row align-center justify-center">
 				<WhatsappCard name="Aldrin Tivano" number="0821-XXXX-XXX" />
 				<WhatsappCard name="Septa Rahmayuni" number="0821-XXXX-XXX" />
 			</div>
