@@ -68,7 +68,7 @@ const Home = () => {
 					/>
 				</SwiperSlide>
 			</Swiper>
-			<div className="flex flex-col md:flex-row justify-center items-center w-[full] md:w-4/5 mx-auto md:gap-16 bg-light-pink h-full rounded-xl shadow-2xl px-4 md:px-12 py-10 md:py-12 md:mb-24">
+			<div className="mb-20 flex flex-col md:flex-row justify-center items-center w-[full] md:w-4/5 mx-auto md:gap-16 bg-light-pink h-full rounded-xl shadow-2xl px-4 md:px-12 py-10 md:py-12 md:mb-24">
 				<img
 					className="w-[250px] h-[200px] md:w-[500px] md:h-[300px]"
 					src="/logo/fef-logo.png"
