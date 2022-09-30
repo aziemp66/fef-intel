@@ -16,7 +16,7 @@ const Footer = () => {
 			<div className="relative">
 				<a
 					href="http://www.google.com"
-					className="bg-green-400 rounded-full absolute -top-10 right-10 h-[75px] w-[75px] cursor-pointer"
+					className="bg-green-400 rounded-full absolute -top-10 right-10 h-[75px] w-[75px]"
 				>
 					<img
 						className="absolute w-full h-full"
