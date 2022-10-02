@@ -18,42 +18,43 @@ const About = () => {
 			</div>
 			<div className="md:w-4/5 w-[90%] mx-auto flex flex-col gap-4">
 				<p className="text-justify">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-					nisi voluptatum impedit quisquam corrupti dolorum saepe aliquam! Omnis
-					ullam a tempora obcaecati inventore tenetur perspiciatis pariatur
-					voluptatum porro nihil vitae consectetur non, sint eaque repudiandae
-					reiciendis qui. Consectetur laudantium perferendis totam alias dolor
-					obcaecati nesciunt temporibus esse fuga porro dolores velit officiis
-					nisi, voluptates aliquid iusto, autem est ratione quaerat! In expedita
-					laboriosam nihil porro similique velit dolore obcaecati accusamus odit
-					consectetur minus atque, dolorem officia perferendis magni quaerat
-					quidem a aperiam iste vero! Magnam incidunt tenetur quisquam quos
-					molestiae sapiente facere. Asperiores ea voluptatibus nam repellat
-					consequatur dolore eligendi non ratione doloribus, amet consectetur at
-					nostrum obcaecati distinctio veniam accusamus. Iste voluptas
-					voluptatem ratione accusamus facere, odio delectus nostrum beatae
-					quasi, illo debitis pariatur nobis labore incidunt quo cumque, non
-					modi aspernatur nemo. Odio vero ut itaque amet unde assumenda sit
-					voluptate nihil dolore perferendis suscipit commodi officia rerum iste
-					ad nesciunt, quod veritatis sint reprehenderit blanditiis aliquam.
-					Omnis libero cum repudiandae a deserunt magni vitae, pariatur
-					voluptate sapiente quasi doloribus esse minus facilis quae dignissimos
-					praesentium. Temporibus, molestias nisi? Repellendus deleniti dolores
-					debitis quos alias id dicta consequatur, provident reprehenderit
-					consequuntur eveniet voluptatum doloremque aut nemo. Sunt, incidunt!
+					Language is something that we must speak as a means of communication,
+					where both parties must understand what the other party is saying. In
+					today's era of globalization, mastery of foreign languages is
+					important to support the success of one's life and career. Along with
+					the increasingly fierce competition today, educators demand students
+					as the nation's next generation to improve their abilities and develop
+					their creativity, especially in English language skills. Because as we
+					know English is an international language and we need to improve our
+					language skills further because most of the information in this modern
+					era is in English.
 				</p>
 				<p className="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas saepe
-					aperiam natus dolor architecto placeat consequatur blanditiis corrupti
-					sint ut expedita maiores error sed quae, eos reiciendis, officiis ipsa
-					omnis perspiciatis repudiandae accusantium molestias quibusdam
-					voluptas. Ipsa quo voluptatum sunt minima dolorum quae nisi facilis
-					est asperiores? Quisquam assumenda nulla quam debitis quae, id vitae
-					vero tempora. Maiores alias natus tempora quis quas. Provident
-					exercitationem incidunt, doloremque explicabo molestiae nostrum neque
-					ex. Quaerat, animi deserunt optio doloribus autem veritatis, nisi,
-					ratione facere rem ut illum cumque tempore natus corrupti vitae
-					provident eos magni. Iure nisi velit, minima rerum deleniti rem.
+					In general, Indonesian people are very less proficient in English as
+					an international language. The lack of student interest in learning
+					English makes it more difficult for Indonesian people to face the
+					current era of globalization. Therefore, Ilkom's Community of English
+					Lovers (INTEL) as an organization with a mission to develop
+					intellectual abilities in the field of language intends to participate
+					in improving the abilities of the younger generation and try to
+					develop their creativity in the field of language, especially English.
+				</p>
+				<p className="text-justify">
+					Therefore, INTEL (Community for English Language Lovers Ilkom) will
+					hold the 2022 Fasilkom English Festival. Through this activity, it is
+					hoped that the participants can improve their English skills and can
+					become a forum for students as the younger generation to show their
+					abilities and creativity in the field of language, especially English
+					as an international language.
+				</p>
+				<p className="text-justify">
+					FASILKOM English Festival (FEF) is an annual event held by ILKOM’s
+					Community of English Lovers (INTEL), Universitas Sriwijaya. FASILKOM
+					English Festival 2021 is an English competition that opens
+					internationally with the main target for all of the high school and
+					college students in Indonesia and And in several other countries
+					without limits. There are four competitions which will be held which
+					are debate, speech, scrabble and newscast.
 				</p>
 			</div>
 		</div>

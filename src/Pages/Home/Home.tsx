@@ -79,15 +79,13 @@ const Home = () => {
 						FEF INTEL UNSRI 2022
 					</h2>
 					<p className="text-sm md:text-xl font-medium">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ipsum
-						euismod nullam proin ullamcorper sit enim sodales egestas. Phasellus
-						eget semper elit, blandit risus lacus, elementum pretium, egestas. A
-						sit integer egestas mauris. Mauris habitant nunc auctor commodo.
-					</p>
-					<p className="text-sm md:text-xl font-medium">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-						minus doloremque quasi temporibus ullam quam deserunt voluptas sint
-						repellendus sit.
+						FASILKOM English Festival (FEF) is an annual event held by ILKOM’s
+						Community of English Lovers (INTEL), Universitas Sriwijaya. FASILKOM
+						English Festival 2021 is an English competition that opens
+						internationally with the main target for all of the high school and
+						college students in Indonesia and in several other countries without
+						limits. There are four competitions which will be held which are
+						debate, speech, scrabble and newscast.
 					</p>
 					<div>
 						<Link className="blue-button" to={"/about-us"}>
