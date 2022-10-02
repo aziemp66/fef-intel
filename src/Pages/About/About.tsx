@@ -14,7 +14,12 @@ const About = () => {
 					<div className="w-6 h-6 rounded-full shadow-inner-lg bg-bright-green"></div>
 					<div className="w-6 h-6 rounded-full shadow-inner-lg bg-bright-red"></div>
 				</div>
-				<div className="md:w-4/5 w-[90%] h-[300px] md:h-[450px] shadow-inner-lg cursor-pointer"></div>
+				<video
+					controls
+					className="md:w-4/5 w-[90%] h-[300px] md:h-[650px] shadow-inner-lg cursor-pointer"
+				>
+					<source src="/video/fef.mp4 " />
+				</video>
 			</div>
 			<div className="md:w-4/5 w-[90%] mx-auto flex flex-col gap-4">
 				<p className="text-justify">
