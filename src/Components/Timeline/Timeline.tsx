@@ -8,7 +8,7 @@ const Timeline = (props: { items: { name: string; active: boolean }[] }) => {
 		totalItems > 1 ? ((numberOfActiveItems - 1) / (totalItems - 1)) * 100 : 0;
 
 	return (
-		<div className="timeline">
+		<div className="timeline mx-20 my-[150px] min-w-[550px]">
 			<div
 				className="timeline-progress"
 				style={{ width: `${progressBarWidth}%` }}

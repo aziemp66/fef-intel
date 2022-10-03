@@ -1,5 +1,4 @@
 .timeline {
-	margin: 50px 60px;
 	height: 4px;
 	background-color: #ccc;
 }
@@ -37,7 +36,6 @@
 	left: 50%;
 	transform: translateX(-50%);
 	background-color: #ddd;
-	width: 100px;
 	padding: 5px 10px;
 	border-radius: 5px;
 	text-align: center;
@@ -62,7 +60,6 @@
 	left: 50%;
 	transform: translateX(-50%);
 	background-color: #ddd;
-	width: 100px;
 	padding: 5px 10px;
 	border-radius: 5px;
 	text-align: center;

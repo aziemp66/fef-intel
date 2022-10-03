@@ -12,14 +12,14 @@ const Header = () => {
 					<MobileMenu setShowMenu={setShowMenu} />,
 					document.getElementById("mobile-menu")!
 				)}
-			<nav className="flex justify-between md:justify-between items-center w-full px-4 md:px-12">
-				<div className="flex justify-around items-center gap-2">
-					<img src="/logo/intel-logo.png" alt="fef" className="w-24 h-24" />
-					<div className="flex-none w-[1px] h-16 bg-slate-400"></div>
+			<nav className="flex justify-between items-center w-full px-4">
+				<div className="md:flex-none flex justify-around items-center gap-2">
+					<img className="h-[96px]" src="/logo/intel-logo.png" alt="fef" />
+					<div className="md:flex-none w-[1px] h-16 bg-slate-400"></div>
 					{/* <h1 className="font-medium text-xl md:text-3xl p-2">FEF INTEL</h1> */}
-					<img className="h-24" src="/logo/fef-logo.png" alt="fef intel" />
+					<img className="h-[96px]" src="/logo/fef-logo.png" alt="fef intel" />
 				</div>
-				<ul className="hidden md:flex gap-20 px-8 w-full justify-center items-center">
+				<ul className="hidden md:flex gap-4 px-8 w-full justify-around items-center">
 					<li className="font-bold link-hover-animation text-xl">
 						<Link to="/">Home</Link>
 					</li>

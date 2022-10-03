@@ -10,7 +10,7 @@ const MobileMenu = ({ setShowMenu }: MobileMenuProps) => {
 	return (
 		<nav
 			onClick={() => setShowMenu(false)}
-			className="bg-[rgba(20,20,20,0.95)] z-20 fixed pt-40 justify-start items-center w-full h-full flex flex-col gap-16 md:hidden"
+			className="bg-[rgba(20,20,20,0.95)] z-20 fixed pt-40 justify-start items-center w-full h-full flex flex-col gap-16 lg:hidden"
 		>
 			<Link className="text-white font-bold text-center text-lg" to="/">
 				Home
