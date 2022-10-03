@@ -1,7 +1,7 @@
-const WhatsappButton = (props: { className?: string }) => {
+const WhatsappButton = (props: { className?: string; contact: string }) => {
 	return (
 		<a
-			href="http://www.google.com"
+			href={`https://wa.me/${props.contact}`}
 			className={`${props?.className} block bg-green-400 rounded-full h-[75px] w-[75px]`}
 		>
 			<img

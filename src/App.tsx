@@ -8,7 +8,10 @@ function App() {
 		<div className="w-full h-full font-poppins">
 			<Header />
 			<Router />
-			<WhatsappButton className="z-10 fixed bottom-14 right-10" />
+			<WhatsappButton
+				contact="6281271467247"
+				className="z-10 fixed bottom-14 right-10"
+			/>
 			<Footer />
 		</div>
 	);
