@@ -119,7 +119,7 @@ const CompDesc = () => {
 
 	return (
 		<div>
-			<DashLineTitle color="#FFD658" text="Competition Name" />
+			<DashLineTitle color="#FFD658" text={name + " Competition"} />
 			<div className="my-40 lg:mx-8 mx-4 lg:h-[325px] flex flex-col items-center lg:flex-row lg:gap-8 lg:justify-center">
 				<img src={`/hero/${name}.png`} alt="" />
 				<div className="max-w-[800px] lg:h-full flex flex-col content-between justify-between">
