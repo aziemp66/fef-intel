@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 type CardContainerProps = {
 	competition: "Scrabble" | "Speech" | "Debate" | "Newscasting";
@@ -26,7 +27,8 @@ const CardContainer = ({ competition }: CardContainerProps) => {
 	}
 
 	return (
-		<div
+		<Link
+			to={`/competitions/${competition}`}
 			className={`${cardColor} flex flex-col cursor-pointer items-center justify-center md:justify-between rounded-xl p-4 md:p-12 md:gap-4 transition-all duration-300 h-[500px] `}
 		>
 			<div className="flex justify-center items-center h-3/4">
@@ -43,7 +45,7 @@ const CardContainer = ({ competition }: CardContainerProps) => {
 					{competition}
 				</h2>
 			</div>
-		</div>
+		</Link>
 	);
 };
 
