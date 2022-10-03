@@ -14,14 +14,23 @@ const Timeline = (props: { items: { name: string; active: boolean }[] }) => {
 				style={{ width: `${progressBarWidth}%` }}
 			></div>
 			<div className="timeline-items">
-				{items.map((item, i) => (
-					<div
-						key={i}
-						className={"timeline-item" + (item.active ? " active" : "")}
-					>
-						<div className="timeline-content">{item.name}</div>
-					</div>
-				))}
+				{items.map((item, i) =>
+					i % 2 === 1 ? (
+						<div
+							key={i}
+							className={"timeline-item" + (item.active ? " active" : "")}
+						>
+							<div className="timeline-content">{item.name}</div>
+						</div>
+					) : (
+						<div
+							key={i}
+							className={"timeline-item" + (item.active ? " active" : "")}
+						>
+							<div className="timeline-content-even">{item.name}</div>
+						</div>
+					)
+				)}
 			</div>
 		</div>
 	);
