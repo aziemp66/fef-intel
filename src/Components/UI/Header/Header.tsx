@@ -30,7 +30,9 @@ const Header = () => {
 						<Link to={"/competitions"}>Competitions</Link>
 					</li>
 					<li className="link-hover-animation text-xl">
-						<a href="">Registration</a>
+						<a href="https://bit.ly/FasilkomEnglishFestival2022">
+							Registration
+						</a>
 					</li>
 					<li className="link-hover-animation text-xl">
 						<Link to="/faq">FAQ</Link>

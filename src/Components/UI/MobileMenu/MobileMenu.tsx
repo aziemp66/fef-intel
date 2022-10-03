@@ -13,14 +13,20 @@ const MobileMenu = ({ setShowMenu }: MobileMenuProps) => {
 			className="bg-[rgba(20,20,20,0.95)] z-20 fixed pt-40 justify-start items-center w-full h-full flex flex-col gap-16 md:hidden"
 		>
 			<Link className="text-white font-bold text-center text-lg" to="/">
-				Beranda
+				Home
 			</Link>
 			<Link
 				className="text-white font-bold text-center text-lg"
 				to="/competitions"
 			>
-				Kompetisi
+				Competitions
 			</Link>
+			<a
+				className="text-white font-bold text-center text-lg"
+				href="https://bit.ly/FasilkomEnglishFestival2022"
+			>
+				Registration
+			</a>
 			<Link className="text-white font-bold text-center text-lg" to="/about-us">
 				About Us
 			</Link>
