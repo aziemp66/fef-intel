@@ -216,19 +216,17 @@ const CompDesc = () => {
 						<p className="font-bold text-2xl">{name}</p>
 						<p>{description}</p>
 					</div>
-					<button
+					<a
+						href={guidebookLink}
 						className="w-full text-center rounded-lg shadow-lg"
 						style={{
 							backgroundColor: color,
 						}}
 					>
-						<a
-							href={guidebookLink}
-							className="py-4 font-xl text-white text-center font-bold"
-						>
+						<p className="py-4 font-xl text-white text-center font-bold">
 							Download Guidebook
-						</a>
-					</button>
+						</p>
+					</a>
 				</div>
 			</div>
 			<DashLineTitle color="#E9685C" text="Timeline" />
