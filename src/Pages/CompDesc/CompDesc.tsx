@@ -66,7 +66,7 @@ const CompDesc = () => {
 				"In this Newscasting competition, participants will deliver the News as a professional anchor on television within a specific time based on the round. This year, the FEF 2022 Newscasting Competition is open to all students at the university. The assessment criteria for this competition are performance (self-presentation, self-confidence, clothing, expression, and movement), material (material, intonation, tempo, time), and English Language Skills (vocabulary, grammar, pronunciation, fluency).";
 			color = "#EFACA6";
 			guidebookLink =
-				"https://docs.google.com/document/d/1g6yEbHzJdc74hXIc5o42CcFHy4X76lJQ/edit?usp=sharing&ouid=104811426582784112401&rtpof=true&sd=true";
+				"https://docs.google.com/document/d/1_RWPTQ9gR7Hr9AG1VzzbBAW__z9iSLzl/edit?usp=sharing&ouid=104811426582784112401&rtpof=true&sd=true";
 			items = [
 				{
 					name: "Registration",
