@@ -49,7 +49,7 @@ const CompDesc = () => {
 				{
 					name: "Final Round and Winner Announcement",
 					active: false,
-					date: "November, 15th 2022",
+					date: "November, 12th 2022",
 				},
 			];
 			cp1 = {
@@ -96,7 +96,7 @@ const CompDesc = () => {
 				{
 					name: "Final Round and Winner Announcement",
 					active: false,
-					date: "November, 15th 2022",
+					date: "November, 12th 2022",
 				},
 			];
 			cp1 = {
@@ -138,7 +138,7 @@ const CompDesc = () => {
 				{
 					name: "Final Round and Winner Announcement",
 					active: false,
-					date: "November, 15th 2022",
+					date: "November, 12th 2022",
 				},
 			];
 			cp1 = {
@@ -185,7 +185,7 @@ const CompDesc = () => {
 				{
 					name: "Final Round and Winner Announcement",
 					active: false,
-					date: "November, 15th 2022",
+					date: "November, 12th 2022",
 				},
 			];
 			cp1 = {
