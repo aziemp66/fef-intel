@@ -234,20 +234,20 @@ const CompDesc = () => {
 				<div className="overflow-x-scroll md:overflow-x-hidden">
 					<Timeline items={items!} />
 				</div>
-				<table className="mx-auto table-auto [&>*>*]:border">
-					<thead>
-						<tr>
-							<th>Time</th>
-							<th>Event</th>
-						</tr>
-					</thead>
-					{items!.map((item) => (
-						<tr>
-							<td className="pr-4">{item.date}</td>
-							<td>{item.name}</td>
-						</tr>
-					))}
-				</table>
+				{/* <table className="mx-auto table-auto [&>*>*]:border"> */}
+				{/* 	<thead> */}
+				{/* 		<tr> */}
+				{/* 			<th>Time</th> */}
+				{/* 			<th>Event</th> */}
+				{/* 		</tr> */}
+				{/* 	</thead> */}
+				{/* 	{items!.map((item) => ( */}
+				{/* 		<tr> */}
+				{/* 			<td className="pr-4">{item.date}</td> */}
+				{/* 			<td>{item.name}</td> */}
+				{/* 		</tr> */}
+				{/* 	))} */}
+				{/* </table> */}
 			</div>
 			<DashLineTitle color="#95AB87" text="Contact Person" />
 			<div className="my-20 flex flex-col mx-1 sm:mx-10 space-y-4 md:space-y-0 md:space-x-10 md:flex-row align-center justify-center">
